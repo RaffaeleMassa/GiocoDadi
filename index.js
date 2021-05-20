@@ -9,9 +9,9 @@ var randomSourceImm2 =  "images/dice" + randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomSourceImm2);
 
 if (randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML = "O FTILL WINS";
+    document.querySelector("h1").innerHTML = "Francesco WINS";
 } else if (randomNumber1 < randomNumber2) {
-    document.querySelector("h1").innerHTML = " A FTELL WINS";
+    document.querySelector("h1").innerHTML = " Zia Rosa WINS";
 } else {
     document.querySelector("h1").innerHTML = "DRAW"
 }
